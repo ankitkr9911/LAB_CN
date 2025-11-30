@@ -263,4 +263,3 @@ This project is open source and available for educational purposes.
 
 ---
 
-**Note:** This repository is maintained for educational purposes. The code examples demonstrate fundamental networking concepts and should be adapted for production use with proper error handling, security measures, and scalability considerations.
