@@ -22,6 +22,8 @@ This repository demonstrates fundamental concepts in computer networking includi
 - Reader-Writer synchronization problem
 - Network topology design and configuration using Cisco Packet Tracer
 - IPv4 and IPv6 addressing and configuration
+- Peer-to-Peer (P2P) network implementation
+- Dual-stack networking (IPv4/IPv6)
 
 ## 🧪 Lab Experiments
 
@@ -73,18 +75,23 @@ This repository also includes work done in **Cisco Packet Tracer**, including:
 ### Network Design Activities
 - Designed and implemented various network topologies (Star, Mesh, Bus, Ring)
 - Configured routers and switches for inter-network communication
-- Implemented IPv4 addressing schemes with proper subnetting
-- Configured IPv6 addresses and demonstrated IPv6 connectivity
+- **Implemented IPv4 addressing schemes with proper subnetting**
+- **Configured IPv6 addresses and demonstrated IPv6 connectivity**
+- **Designed and implemented Peer-to-Peer (P2P) network architecture**
 - Set up DHCP servers for dynamic IP allocation
 - Implemented VLANs for network segmentation
 - Configured static and dynamic routing protocols
+- Tested connectivity using ping and traceroute commands
+- Configured both IPv4 and IPv6 dual-stack environments
 
 ### Skills Demonstrated
-- Network planning and IP addressing
+- Network planning and IP addressing (IPv4 and IPv6)
 - Router and switch configuration
-- Protocol implementation (IPv4/IPv6)
+- Protocol implementation and dual-stack networking
+- Peer-to-Peer network design and implementation
 - Network troubleshooting and testing
 - Documentation of network designs
+- Understanding of direct device-to-device communication
 
 ## 📦 Prerequisites
 
@@ -187,12 +194,26 @@ gcc lab3_client.c -o client
    - Prevents zombie processes
    - Scalable architecture
 
-### 4. **Network Configuration**
-   - IPv4 subnetting and addressing
-   - IPv6 configuration and testing
-   - Router and switch setup
-   - VLAN implementation
-   - Routing protocol configuration
+### 4. **Network Configuration in Cisco Packet Tracer**
+   - **IPv4 Configuration:**
+     - Static IP addressing
+     - Subnet mask configuration
+     - Default gateway setup
+     - IP address assignment to network devices
+   
+   - **IPv6 Configuration:**
+     - IPv6 address assignment (Global Unicast, Link-Local)
+     - IPv6 routing configuration
+     - Dual-stack implementation
+     - IPv6 connectivity testing
+   
+   - **Peer-to-Peer Network:**
+     - Direct device-to-device communication
+     - Crossover cable configuration
+     - P2P file sharing simulation
+     - Two-node network setup without intermediary devices
+     - Configured static IP addresses for peer devices
+     - Tested bidirectional communication between peers
 
 ## 🎓 Learning Outcomes
 
@@ -203,8 +224,11 @@ After completing these labs, you will understand:
 - Synchronization mechanisms
 - Concurrent programming concepts
 - Network design principles
-- IP addressing and routing
+- IP addressing and routing (IPv4 and IPv6)
+- Peer-to-Peer network architecture
 - Network device configuration
+- Dual-stack networking implementation
+- Direct device communication without intermediary infrastructure
 
 ## 🛠️ Troubleshooting
 
@@ -262,4 +286,3 @@ This project is open source and available for educational purposes.
 - GitHub: [@ankitkr9911](https://github.com/ankitkr9911)
 
 ---
-
